@@ -1,6 +1,11 @@
 const prompt = require("prompt-sync")();
 console.clear();
 
+/* 
+Faça um programa que peça um número inteiro e determine se ele é ou não um número primo. 
+Um número primo é aquele que é divisível somente por ele mesmo e por 1.
+*/
+
 let numero = +prompt("Digite um número: ");
 
 let qtdNumerosDivisiveis = 0;
